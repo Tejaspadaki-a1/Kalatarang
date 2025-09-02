@@ -28,7 +28,7 @@ const Header = () => {
     <header className={styles.header}>
       <div className={styles.logo}>
         <NavLink to="/">
-          <img src="/images/logo1.jpg" alt="Kalatarang Logo" />
+          <img src="/images/Kalatarang-logo.jpg" alt="Kalatarang Logo" />
         </NavLink>
       </div>
 
