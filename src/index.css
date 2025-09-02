@@ -1,0 +1,37 @@
+/* src/index.css */
+@import "tailwindcss";
+/* --- Global Styles & Color Palette --- */
+:root {
+  --color-cream: #FFF6E9;
+  --color-charcoal: #2c3e50;
+  --color-purple: #c5b8e8;
+  --color-orange: #E58913; /* A warmer orange from the design */
+
+  --font-serif: 'Playfair Display', serif;
+  --font-sans: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background-color: var(--color-cream); /* Sets the default background for the whole site */
+  color: var(--color-charcoal);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* --- Global Animation Class --- */
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}

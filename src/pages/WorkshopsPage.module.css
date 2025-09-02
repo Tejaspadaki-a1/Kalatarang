@@ -1,0 +1,311 @@
+.workshopsPage {
+  font-family: var(--font-sans);
+  color: var(--color-charcoal);
+  background-color: var(--color-cream);
+}
+
+.section {
+  padding: 100px 8%;
+}
+
+/* --- Section 1: Upcoming Workshops (3-Column Grid) --- */
+.gridHeader {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.gridTitle {
+  font-family: var(--font-serif);
+  font-size: 3rem;
+  color: var(--color-orange);
+  margin-bottom: 15px;
+}
+
+.gridSubtitle {
+  font-size: 1.1rem;
+  color: #666;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.workshopsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 40px;
+}
+
+.workshopCard {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.cardImage {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.cardContent {
+  padding: 25px;
+  flex-grow: 1;
+}
+
+.cardTitle {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin: 0 0 15px 0;
+}
+
+.cardDescription {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.cardButton {
+  display: block;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  margin: 15px 25px 25px 25px;
+  text-decoration: none;
+  color: var(--color-charcoal);
+  transition: all 0.3s ease;
+}
+
+.cardButton:hover {
+  background-color: var(--color-orange);
+  color: white;
+  border-color: var(--color-orange);
+}
+
+/* --- Section 2: Main Workshop List (Alternating Layout) --- */
+.workshopList {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 60px;
+}
+
+.workshopItem {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  padding: 60px 8%;
+}
+
+.workshopItem:nth-child(even) {
+  flex-direction: row-reverse;
+  background-color: #fdfaf6;
+}
+
+.workshopContent {
+  flex: 1;
+}
+
+.workshopImageContainer {
+  flex: 1;
+  text-align: center;
+}
+
+.workshopImage {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.workshopTitle {
+  font-family: var(--font-serif);
+  font-size: 2.5rem;
+  color: var(--color-charcoal);
+  margin: 0 0 20px 0;
+}
+
+.workshopDescription {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.bookLink {
+  color: var(--color-orange);
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+/* --- Section 3: Green Info and Details Sections --- */
+.infoSection {
+  display: flex;
+  align-items: stretch;
+  border-radius: 30px;
+  padding: 10;
+  gap: 0;
+}
+
+.infoLeft {
+  flex-basis: 40%;
+  background-color: #819471; /* Updated Color */
+  color: white;
+  display: flex;
+  border-radius: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 60px 40px;
+}
+
+.infoTitle {
+  font-family: var(--font-serif);
+  font-size: 4rem;
+  line-height: 1.2;
+  margin: 0 0 40px 0;
+}
+
+.registerButton {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 12px 40px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.registerButton:hover {
+  background: white;
+  color: #819471; /* Updated Color */
+}
+
+.infoRight {
+  flex-basis: 60%;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  gap: 30px;
+  padding: 40px;
+  background: white;
+}
+
+.infoDetails { flex: 1; }
+
+.infoDetails ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 30px 0;
+}
+
+.infoDetails li {
+  margin-bottom: 15px;
+  position: relative;
+  padding-left: 25px;
+}
+
+.infoDetails li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+}
+
+.mansiInfo { font-weight: 600; line-height: 1.6; }
+.phone { font-weight: normal; }
+
+.infoImage {
+  flex-basis: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.detailsSection {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px; /* Adds space between the cards */
+  padding: 100px 8%; /* Adds padding around the entire section */
+  background-color: var(--color-cream); /* Sets the background for the padded area */
+}
+
+.detailCard {
+  background-color: #819471;
+  color: white;
+  padding: 60px 40px;
+  text-align: center;
+  border-radius: 12px; /* Adds curved edges to each box */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.detailCard a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  height: 100%;
+  width: 100%;
+}
+
+.detailIcon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 25px;
+  filter: brightness(0) invert(1);
+}
+
+.detailTitle {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.detailDescription {
+  color: #f0f0f0;
+  line-height: 1.6;
+}
+
+/* Add this at theend of WorkshopsPage.module.css */
+@media (max-width: 768px) {
+  .section, .workshopItem, .infoSection {
+    flex-direction: column !important; /* Stack all flex containers */
+    padding: 60px 8%;
+  }
+
+  .gridHeader, .pageHeader {
+    padding: 60px 8% 40px 8%;
+  }
+
+  .gridTitle, .pageTitle, .workshopTitle, .infoTitle {
+    font-size: 2.5rem; /* Standardize title sizes */
+  }
+  
+  .workshopsGrid {
+    grid-template-columns: 1fr; /* Make the grid a single column */
+  }
+
+  .workshopItem {
+    gap: 40px;
+  }
+
+  .infoRight {
+    flex-direction: column;
+  }
+
+  .infoImage {
+    max-width: 100%;
+  }
+
+  .detailsSection {
+    grid-template-columns: 1fr; /* Make the details grid a single column */
+  }
+}

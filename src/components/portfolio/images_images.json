@@ -1,0 +1,230 @@
+[
+  {
+    "id": 1,
+    "imgSrc": "/images/Address (1).png",
+    "imgTitle": "Address (1).png",
+    "imgData": ""
+  },
+  {
+    "id": 2,
+    "imgSrc": "/images/Address.png",
+    "imgTitle": "Address.png",
+    "imgData": ""
+  },
+  {
+    "id": 3,
+    "imgSrc": "/images/Call.png",
+    "imgTitle": "Call.png",
+    "imgData": ""
+  },
+  {
+    "id": 4,
+    "imgSrc": "/images/Email.png",
+    "imgTitle": "Email.png",
+    "imgData": ""
+  },
+  {
+    "id": 5,
+    "imgSrc": "/images/Instagram.png",
+    "imgTitle": "Instagram.png",
+    "imgData": ""
+  },
+  {
+    "id": 6,
+    "imgSrc": "/images/logo.png",
+    "imgTitle": "logo.png",
+    "imgData": ""
+  },
+  {
+    "id": 7,
+    "imgSrc": "/images/logo1.jpg",
+    "imgTitle": "logo1.jpg",
+    "imgData": ""
+  },
+  {
+    "id": 8,
+    "imgSrc": "/images/Paint Palette.png",
+    "imgTitle": "Paint Palette.png",
+    "imgData": ""
+  },
+  {
+    "id": 9,
+    "imgSrc": "/images/Phone.png",
+    "imgTitle": "Phone.png",
+    "imgData": ""
+  },
+  {
+    "id": 10,
+    "imgSrc": "/images/rect40.jpg",
+    "imgTitle": "rect40.jpg",
+    "imgData": ""
+  },
+  {
+    "id": 11,
+    "imgSrc": "/images/Rectangle 10.png",
+    "imgTitle": "Rectangle 10.png",
+    "imgData": ""
+  },
+  {
+    "id": 12,
+    "imgSrc": "/images/Rectangle 14.png",
+    "imgTitle": "Rectangle 14.png",
+    "imgData": ""
+  },
+  {
+    "id": 13,
+    "imgSrc": "/images/Rectangle 15.png",
+    "imgTitle": "Rectangle 15.png",
+    "imgData": ""
+  },
+  {
+    "id": 14,
+    "imgSrc": "/images/Rectangle 16.png",
+    "imgTitle": "Rectangle 16.png",
+    "imgData": ""
+  },
+  {
+    "id": 15,
+    "imgSrc": "/images/Rectangle 17 (1).png",
+    "imgTitle": "Rectangle 17 (1).png",
+    "imgData": ""
+  },
+  {
+    "id": 16,
+    "imgSrc": "/images/Rectangle 17.png",
+    "imgTitle": "Rectangle 17.png",
+    "imgData": ""
+  },
+  {
+    "id": 17,
+    "imgSrc": "/images/Rectangle 20.png",
+    "imgTitle": "Rectangle 20.png",
+    "imgData": ""
+  },
+  {
+    "id": 18,
+    "imgSrc": "/images/Rectangle 21.png",
+    "imgTitle": "Rectangle 21.png",
+    "imgData": ""
+  },
+  {
+    "id": 19,
+    "imgSrc": "/images/Rectangle 22.png",
+    "imgTitle": "Rectangle 22.png",
+    "imgData": ""
+  },
+  {
+    "id": 20,
+    "imgSrc": "/images/Rectangle 23.png",
+    "imgTitle": "Rectangle 23.png",
+    "imgData": ""
+  },
+  {
+    "id": 21,
+    "imgSrc": "/images/Rectangle 24.png",
+    "imgTitle": "Rectangle 24.png",
+    "imgData": ""
+  },
+  {
+    "id": 22,
+    "imgSrc": "/images/Rectangle 25.png",
+    "imgTitle": "Rectangle 25.png",
+    "imgData": ""
+  },
+  {
+    "id": 23,
+    "imgSrc": "/images/Rectangle 26.png",
+    "imgTitle": "Rectangle 26.png",
+    "imgData": ""
+  },
+  {
+    "id": 24,
+    "imgSrc": "/images/Rectangle 27.png",
+    "imgTitle": "Rectangle 27.png",
+    "imgData": ""
+  },
+  {
+    "id": 25,
+    "imgSrc": "/images/Rectangle 28 (1).png",
+    "imgTitle": "Rectangle 28 (1).png",
+    "imgData": ""
+  },
+  {
+    "id": 26,
+    "imgSrc": "/images/Rectangle 28.png",
+    "imgTitle": "Rectangle 28.png",
+    "imgData": ""
+  },
+  {
+    "id": 27,
+    "imgSrc": "/images/Rectangle 29.png",
+    "imgTitle": "Rectangle 29.png",
+    "imgData": ""
+  },
+  {
+    "id": 28,
+    "imgSrc": "/images/Rectangle 3.png",
+    "imgTitle": "Rectangle 3.png",
+    "imgData": ""
+  },
+  {
+    "id": 29,
+    "imgSrc": "/images/Rectangle 30.png",
+    "imgTitle": "Rectangle 30.png",
+    "imgData": ""
+  },
+  {
+    "id": 30,
+    "imgSrc": "/images/Rectangle 32.png",
+    "imgTitle": "Rectangle 32.png",
+    "imgData": ""
+  },
+  {
+    "id": 31,
+    "imgSrc": "/images/Rectangle 36.png",
+    "imgTitle": "Rectangle 36.png",
+    "imgData": ""
+  },
+  {
+    "id": 32,
+    "imgSrc": "/images/Rectangle 37.png",
+    "imgTitle": "Rectangle 37.png",
+    "imgData": ""
+  },
+  {
+    "id": 33,
+    "imgSrc": "/images/Rectangle 38.png",
+    "imgTitle": "Rectangle 38.png",
+    "imgData": ""
+  },
+  {
+    "id": 34,
+    "imgSrc": "/images/Rectangle 39.png",
+    "imgTitle": "Rectangle 39.png",
+    "imgData": ""
+  },
+  {
+    "id": 35,
+    "imgSrc": "/images/Rectangle 5.png",
+    "imgTitle": "Rectangle 5.png",
+    "imgData": ""
+  },
+  {
+    "id": 36,
+    "imgSrc": "/images/Rectangle 8.png",
+    "imgTitle": "Rectangle 8.png",
+    "imgData": ""
+  },
+  {
+    "id": 37,
+    "imgSrc": "/images/Rectangle 9.png",
+    "imgTitle": "Rectangle 9.png",
+    "imgData": ""
+  },
+  {
+    "id": 38,
+    "imgSrc": "/images/Rectangle38(1).png",
+    "imgTitle": "Rectangle38(1).png",
+    "imgData": ""
+  }
+]

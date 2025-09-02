@@ -1,0 +1,67 @@
+.workshopsPromoSection {
+  display: flex;
+  align-items: center;
+  background-color: var(--color-purple);
+  padding: 0;
+  overflow: hidden;
+}
+
+.workshopsPromoContent {
+  flex: 1;
+  padding: 8%;
+  color: var(--color-charcoal);
+}
+
+.workshopsPromoTitle {
+  font-family: var(--font-serif);
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+.workshopsPromoSubtitle {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.workshopsPromoImage {
+  flex: 1.2;
+  height: 600px;
+  object-fit: cover;
+}
+
+.buttonPrimary {
+  display: inline-block;
+  padding: 10px 28px;
+  border: 1px solid var(--color-charcoal);
+  border-radius: 30px;
+  background-color: transparent;
+  color: var(--color-charcoal);
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.buttonPrimary:hover {
+  background-color: var(--color-charcoal);
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .workshopsPromoSection {
+    flex-direction: column; /* Stack the items */
+  }
+
+  .workshopsPromoContent {
+    padding: 60px 8%; /* Add padding now that it's stacked */
+    text-align: center;
+  }
+
+  .workshopsPromoTitle {
+    font-size: 2.5rem; /* Reduce font size */
+  }
+  
+  .workshopsPromoImage {
+    height: auto; /* Let the image height be natural */
+    width: 100%;
+  }
+}

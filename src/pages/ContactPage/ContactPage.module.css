@@ -1,0 +1,188 @@
+.contactPage {
+  background-color: var(--color-cream);
+  color: var(--color-charcoal);
+}
+
+/* --- Section 1: Get in Touch --- */
+.getIntouchSection {
+  padding: 100px 8%;
+  text-align: center;
+}
+
+.pageTitle {
+  font-family: var(--font-serif);
+  font-size: 3.5rem;
+  color: var(--color-orange);
+  margin: 0 0 20px 0;
+}
+
+.pageSubtitle {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.iconLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #778f66; /* Lighter shade for the default state */
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.iconLink:hover {
+  transform: translateY(-5px);
+  background-color: #557841; /* Original darker color for the hover state */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.iconLink img {
+  width: 24px;
+  height: 24px;
+}
+
+/* --- Section 2: Contact Form --- */
+.formSection {
+  background-color: var(--color-purple);
+  padding: 100px 8%;
+}
+
+.contactForm {
+  background-color: white;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.formTitle {
+  font-family: var(--font-serif);
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 0 0 40px 0;
+}
+
+.formGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.formGroup.fullWidth {
+  grid-column: 1 / -1; /* Makes the element span both columns */
+}
+
+.formGroup label {
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.formGroup input,
+.formGroup textarea {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 5px;
+  font-size: 1rem;
+  font-family: var(--font-sans);
+}
+
+.formGroup input:focus,
+.formGroup textarea:focus {
+  outline: none;
+  border-bottom-color: var(--color-orange);
+}
+
+.submitButton {
+  display: block;
+  margin: 40px auto 0 auto;
+  padding: 12px 50px;
+  border-radius: 30px;
+  border: 1px solid var(--color-charcoal);
+  background-color: transparent;
+  color: var(--color-charcoal);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: var(--color-charcoal);
+  color: white;
+}
+
+/* --- Section 3: Drop Us a Line --- */
+.dropSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 8%;
+}
+
+.dropTitle {
+  font-family: var(--font-serif);
+  font-size: 3.5rem;
+  color: var(--color-orange);
+}
+
+.feedbackText h3 {
+  font-weight: 600;
+  margin: 0 0 5px 0;
+}
+
+.feedbackText p {
+  margin: 0;
+}
+
+.feedbackText a {
+  color: var(--color-orange);
+  font-weight: 600;
+}
+
+/* Add this at the end of ContactPage.module.css */
+@media (max-width: 768px) {
+  .getIntouchSection, .dropSection {
+    padding: 60px 8%;
+  }
+  
+  .formSection {
+    padding: 60px 5%;
+  }
+
+  .contactForm {
+    padding: 40px 25px;
+  }
+
+  .formGrid {
+    grid-template-columns: 1fr; /* Stack form fields */
+  }
+
+  .dropSection {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .pageTitle, .dropTitle {
+    font-size: 2.5rem;
+  }
+}

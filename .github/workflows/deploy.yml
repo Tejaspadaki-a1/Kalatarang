@@ -1,0 +1,51 @@
+name: Deploy React App (root) to cPanel via FTP
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Show project folder contents before build
+        run: ls -la
+
+      - name: Show Node version
+        run: node -v
+
+      - name: Show npm version
+        run: npm -v
+
+      - name: Show dist folder contents (should be empty before build)
+        run: ls -la ./dist || echo "Dist folder does not exist yet"
+
+      - name: Build React app
+        run: npm run build
+
+      - name: Show dist folder contents after build
+        run: ls -la ./dist
+
+      - name: Deploy to cPanel via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftp
+          port: ${{ secrets.FTP_PORT }}
+          local-dir: ./dist/
+          server-dir: /
